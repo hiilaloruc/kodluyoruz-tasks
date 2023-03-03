@@ -1,0 +1,110 @@
+a{
+     text-decoration: none;
+     color: #70757a;
+     margin-right: 20px;
+}
+ nav.a {
+     color: rgba(0,0,0,.87);
+}
+ nav {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     width: 324px;
+     margin-left: auto;
+     font: 13px/27px Roboto,Arial,sans-serif;
+}
+ .circleIcon{
+     color: #5f6368;
+     opacity: 0.5;
+     width: 25px;
+     vertical-align: middle;
+}
+ .container {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     margin-top: 10%;
+}
+ input[type="text"] {
+     width: 100%;
+     border: none;
+     height: 24px;
+     outline: none;
+}
+ .m-hor-8{
+     margin-left: 8px;
+     margin-right: 8px;
+}
+ .searchRectangle {
+     display: flex;
+     height: 44px;
+     background: #fff;
+     border: 1px solid #dfe1e5;
+     box-shadow: none;
+     border-radius: 24px;
+     margin: 20px auto;
+     width: 100%;
+     max-width: 584px;
+     align-items: center;
+     padding: 0px 10px;
+}
+ .xsIcon{
+     height: 24px;
+}
+ .carbonImg{
+     height: 14px;
+     margin-right: 6px;
+}
+ input[type="button"] {
+     font-family: Google Sans,Roboto,Helvetica,Arial,sans-serif;
+     font-weight: 500;
+     font-size: 14px;
+     letter-spacing: 0.25px;
+     line-height: 16px;
+     min-width: 96px;
+     padding: 9px 23px;
+     text-align: center;
+     vertical-align: middle;
+     border-radius: 4px;
+     box-sizing: border-box;
+     border: 1px solid transparent;
+     margin: auto 8px;
+     text-decoration: none;
+     cursor: pointer;
+}
+ .blueButton{
+     background: #1a73e8;
+     color: #fff;
+}
+ .grayButton{
+     background-color: #f8f9fa;
+     color: #202124;
+}
+ input[type="button"]:hover, .searchRectangle:hover{
+     box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+}
+ a:hover{
+     text-decoration: underline;
+}
+ footer {
+     position: absolute;
+     bottom: 0;
+     left: 0;
+     right: 0;
+     background: #f2f2f2;
+     color: #70757a;
+     display: flex;
+     flex-direction: column;
+}
+ .row {
+     padding: 5px 15px;
+     border-bottom: 1px solid #dadce0;
+     font-size: 15px;
+     color: #70757a;
+}
+ .row:nth-child(2) {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
